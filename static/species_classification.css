@@ -1,0 +1,72 @@
+/* 
+ * species_classification.css
+ * Angela Ellis & Marc Donnelly
+ * 22 November 2020
+ */
+
+#species_classification_page {
+    background-color: #81ab78;
+}
+
+.menu {
+    margin: 20px;
+    border: 5px;
+    border-color: white;
+    padding: 5px;
+    float: left;
+    height: 350px;
+    overflow-y: scroll;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 170px;
+    background-color: #f1f1f1;
+}
+
+.menu ul li {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.menu ul li:hover {
+    background-color: #306040;
+    color: white;
+}
+
+.menu ul li.selected {
+    background-color: #1c383a;
+    color: #eee;
+}
+
+.center {
+  text-align: center;
+}
+
+#species_classification_search {
+    float: left;
+}
+
+#search_button {
+    height: 50px;
+    margin-top: 150px;
+}
+
+#individual_species_section {
+    background-color: #9bd897;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+H2 {
+    display: inline;
+}
+
+H4 {
+    display: inline;
+}
