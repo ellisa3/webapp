@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>NPS Species</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='webapp.css') }}" />
+  </head>
+  
+  <body>
+    {% include 'header.html' %}
+
+    <div>
+      <select>
+        <option value="blank">--</option>
+        <option value="acres">Acres</option>
+        <option value="latitude">Latitude</option>
+        <option value="longitude">Longitude</option>
+        <option value="num_species"># Species</option>
+        <option value="num_threatened_species"># Threatened Species</option>
+      </select>
+    </div>
+  <div id="homepage_image">
+     <img src="static/us-national-parks-map.jpg" alt="Map of US National Parks" style="width:550px;height:400px;"> 
+     <!--http://ontheworldmap.com/usa/usa-national-parks-map.html-->
+  </div>
+  </body>
+</html>

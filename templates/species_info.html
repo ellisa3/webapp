@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Species Info</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='webapp.css') }}" />
+  </head>
+    
+    <body>
+      {% include 'header.html' %}
+
+      <div id="species_info_page">
+        <div class="vertical-menu">First Search Parameter
+          <a href="#">--</a>
+          <a href="#">conservation status</a>
+          <a href="#">seasonality</a>
+          <a href="#">abundance</a>
+          <a href="#">nativeness</a>  
+          <a href="#">occurrence</a>
+          <a href="#">record status</a>
+        </div>
+      
+      <div class="vertical-menu">Second Search Parameter
+          <a href="#">--</a>
+          <a href="#">conservation status</a>
+          <a href="#">seasonality</a>
+          <a href="#">abundance</a>
+          <a href="#">nativeness</a>  
+          <a href="#">occurrence</a>
+          <a href="#">record status</a>       
+      </div>
+      <div id="species_info_search"><button>SEARCH</button>
+      </div>
+      <div class="vertical-menu" id="species_info_output">Species
+        <a href="#">emu</a>
+        <a href="#">squid</a>
+        <a href="#">moose</a>
+        <a href="#">...</a>
+        <a href="#">emu</a>
+        <a href="#">squid</a>
+        <a href="#">moose</a>
+        <a href="#">...</a>
+        <a href="#">emu</a>
+        <a href="#">squid</a>
+        <a href="#">moose</a>
+        <a href="#">...</a>
+        <a href="#">emu</a>
+        <a href="#">squid</a>
+        <a href="#">moose</a>
+        <a href="#">...</a>
+      </div>
+      </div>
+    </body>
+</html>
