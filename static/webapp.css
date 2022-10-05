@@ -1,0 +1,92 @@
+/*
+ * webapp.css
+ * Angela Ellis & Marc Donnelly
+ * 22 November 2020
+ */
+
+#title {
+    color: #306040;
+    font-size: 40px;
+    float: left;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #306040;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    width: 28%;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #689088;
+}
+
+#search_bar {
+    float: right;
+    margin-top: 9mm;
+}
+
+#species_classification_page {
+    height: 400px;
+    width: 100%;
+}
+
+.vertical-menu {
+    width: 20%;
+    float: left;
+    margin: 20px;
+    border: 5px;
+    border-color: white;
+    padding: 5px;
+    height: 300px;
+    font-size: 22px;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+#species_info_page {
+    width: 100%;
+    height: 400px;
+}
+
+#species_info_search {
+    width: 10%;
+    margin: auto;
+    margin-left: 40px;
+    float: left;
+    margin-top: 150px;
+    height: 50px;
+}
+
+#species_info_output {
+    width: 20%;
+    display: block;
+    float: left;
+    overflow-y: scroll;
+    height: 300px;
+}
+
+#homepage_image {
+    width: 100%;
+    height: 100%;
+    margin: 10mm;
+}
